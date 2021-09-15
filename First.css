@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+    position: relative;
+
+}
+.PLAY{
+    background-color: rgb(52, 3, 99)
+
+}
+.PLAY:hover {
+    background-color:rgb(92, 92, 250) ;
+}
+.PLAY,.links{
+    padding: 18px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    width: 200px;
+    color: aliceblue;
+}
+.list{
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+
+}
+.newlist{
+    transform: scaleY(1);
+}
+.links{
+    background-color:blue ;
+}
+.links:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+
+}

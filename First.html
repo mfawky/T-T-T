@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO</title>
+    <link rel="stylesheet" href="First.css">
+</head>
+<body>
+    <div class="container">
+        <button class="PLAY">PLAY</button>
+        <div class="list">
+        <button class="links">Login</button>
+        <button class="links">Sign Up</button>
+        <button class="links">High Scores</button>
+
+
+        </div>
+    </div>
+    <script>
+        let PLAY = document.querySelector('.PLAY');
+        let list = document.querySelector('.list');
+        PLAY.addEventListener("PLAY",()=>{list.classList.toggle('newlist');
+        
+        }); 
+
+    </script>
+</body>
+</html>
