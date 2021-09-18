@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="12.png" type="image/x-icon">
     <title>SignUp</title>
 </head>
-<body>
+<body style="background-color:rgb(231, 212, 187);">
 <section class="section2">
 <form>
 	<div class="signup_container">
@@ -20,13 +20,13 @@
 		<input type="password" id="pass" placeholder="Repeat Password" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" required>
 
 			<span id="remember_forget">
-				<input type="checkbox" checked="" ><label>Remember me </label>
+				<input type="checkbox" id="remember" checked="" ><label>Remember me </label>
 			</span>	
 
 		<p>By creating an account you agree to our <a href="#" >Terms & Privacy</a>.</p>
 
 		<div class="towbtn">
-		  <button type="button" class="cancel">Cancel</button>
+		  <button onclick="document.location='First.html'" type="button" class="cancel">Cancel</button>
 		  <button type="submit" class="signup">Sign Up</button>
 		</div>
 	

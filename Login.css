@@ -1,18 +1,13 @@
 .login_container{
-	display:flex;
-	flex-wrap:wrap;
+	display: flex;
+	position: absolute;
+	top: 10%;
+	right: 41%;
+	left: 37%;
 	flex-direction:column;
 	text-align:center;
 	align-items:center;
-	margin:50px;
-	background-color:white;
-
-	
-}
-#section1{
-
-
-	
+    background-color: rgb(108, 149, 163);
 }
 #myEmail{
 	margin:10px;
@@ -29,11 +24,17 @@
 #remember_forget{
 	margin:10px;
 	padding:5px;
+
+}
+#remember{
+	cursor: pointer;
+
 }
 #submit{
 	margin:10px;
 	padding:5px;
 	padding-right:20px;
 	padding-left:20px;
+	cursor: pointer;
 
 }
