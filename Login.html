@@ -9,6 +9,23 @@
     <title>Login</title>
 </head>
 <body>
-    
+<section id="section1">
+	<form>
+		<div class="login_container" >
+			
+			<input type="email" id="myEmail" placeholder="Email:abcd@domain.com" required autocomplete="">
+			<input type="password" id ="myPass" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" placeholder="Password" required="">
+			<span id="remember_forget">
+				<input type="checkbox" id="remember" checked="" ><label>Remember me </label>
+			</span>	
+			<a id="forget" href="" title="click here">Forgot password </a>
+			<span>
+			<input type="submit" id="submit" onclick="document.location='Play.html'" value="login">
+			<a href="SignUp.html">or sign up</a>
+			</span>
+		</div>
+		
+	</form>
+</section>  
 </body>
 </html>

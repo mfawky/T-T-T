@@ -1,0 +1,37 @@
+.signup_container{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	text-align:center;
+	align-items:center;
+	margin:50px;
+	background-color:white;
+
+	
+}
+#email{
+	margin:10px;
+	padding:5px;
+	padding-right:20px;
+	padding-left:20px;
+}
+#pass{
+	margin:10px;
+	padding:5px;
+	padding-right:20px;
+	padding-left:20px;
+}
+#name{
+	margin:10px;
+	padding:5px;
+	padding-right:20px;
+	padding-left:20px;
+}
+button {
+	margin:10px;
+	padding:5px;
+	padding-right:20px;
+	padding-left:20px;
+	cursor: pointer;
+
+}
