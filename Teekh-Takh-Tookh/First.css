@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(231, 212, 187);
+}
+body{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+}
+.list{
+    position: absolute;
+    transform-origin: top;
+    transition: 0.3s;
+    top: 55%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+.links{
+    background-color: rgb(52, 3, 99);
+    display: block;
+    margin: 10px;
+    padding: 18px;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    width: 200px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.links:hover{
+    background-color: rgb(108, 149, 163);
+    transition: 0.5s;
+}
