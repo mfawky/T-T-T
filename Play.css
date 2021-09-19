@@ -1,0 +1,82 @@
+bodey{
+	
+}
+.game_container{
+	display:grid;
+	grid-template-areas:
+	"hd hd hd"
+	"mn mn mn"
+	"ft ft ft";
+	grid-template-rows:20% 60% 20%;
+	
+
+	
+}
+header{
+	order:1;
+	display:flex;
+	border: 2px solid red;
+	padding: 10px;
+	margin-bottom:10px;
+	grid-area:hd;
+	height:50px;
+
+}
+header input{
+	width:20px;
+	height:20px;
+	text-align:center;
+		margin:5px;
+
+}
+.gameExitBtn{
+	width:70px;
+	height:25px;
+	margin:5px;
+	padding:3px;
+}
+footer{
+	order:3;
+	grid-area:ft;
+	color:green;
+	border: 2px solid green;
+	
+
+}
+main{
+	order:2;
+	display:flex;
+	grid-area:mn;
+	flex-direction: row;
+	margin:20px;
+	position: absolute;
+	top: 10%;
+	left:22%;
+	right:22%;
+	border: 1px solid yellow;
+
+}
+.box{
+	background-color:lightblue;
+	border: 3px solid gray;
+	text-align:center;
+	align-items:center;
+	width:140px;
+	height:140px;
+	padding: 5px;
+	margin:3px;
+	font:bold 80px monospace;
+	
+	
+	
+}
+.col{
+	display:flex;
+	flex-direction:column;
+}
+
+.one{
+	0color:red;
+}
+
+
