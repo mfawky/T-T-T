@@ -1,2 +1,2 @@
-# Teekh-Takh-Tookh
+# T-T-T
 Tic-Tac-Toe (XO) Game  ...
